@@ -1,0 +1,234 @@
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right,#d5def5, #596e79, #22313f);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3a37;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar .logo span {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(to right, rgba(204, 228, 233, 0.8), rgba(84, 81, 78, 0.8)), url('c.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 50px;
+    text-align: center;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Business and Restaurant Info Section */
+.business-restaurant-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+    padding: 50px;
+}
+
+.business-info, .restaurant-info {
+    background: linear-gradient(to right, #352f44, #8e8d8d);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.business-info h3, .restaurant-info h3 {
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+.business-info .info-block, .restaurant-info p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.business-info .info-block {
+    display: flex;
+    align-items: center;
+}
+
+.business-info .info-block img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+/* CTA Heading and Button */
+.cta-heading {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #ff6347;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+    padding: 50px;
+}
+
+.form-and-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.contact-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    background: linear-gradient(to right, #2b343d, #a7b9d0);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    color: #fbfd7c;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;   
+    color: white; 
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #596e79;
+}
+
+.contact-form button {
+    background-color: #eaa397;
+    color:white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #ff4500;
+}
+
+
+/* Footer */
+footer {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-icons a img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+footer .social-icons a:hover img {
+    filter: brightness(0.8);
+}

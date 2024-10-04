@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/contact.css">
+  <title>Contact - Taste of Home</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Restaurant Logo">
+            <span>Taste of Home</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you. Whether it’s for a reservation or a question, feel free to get in touch!</p>
+    </section>
+
+    <section class="business-restaurant-section">
+        <div class="business-info">
+            <h3>Business Information</h3>
+            <div class="info-block">
+                <img src="https://i.pinimg.com/564x/13/cb/55/13cb553c61bba16d9f31567aa5f2847a.jpg" alt="Business Hours">
+                <div>
+                    <h4>Business Hours:</h4>
+                    <p>Monday - Friday: 10:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday: 9:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <img src="https://i.pinimg.com/564x/c0/9e/9a/c09e9ae256a9cad6ecd89626d0ce3e7c.jpg" alt="Location">
+                <div>
+                    <h4>Address:</h4>
+                    <p>123 Food Street, City</p>
+                </div>
+            </div>
+            <div class="info-block">
+                <img src="https://i.pinimg.com/564x/81/5f/57/815f57f0425b9067763397815468cbf4.jpg" alt="Phone">
+                <div>
+                    <h4>Phone:</h4>
+                    <p>(123) 456-7890</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Restaurant Info -->
+        <div class="restaurant-info">
+            <h3>About Our Restaurant</h3>
+            <p>At Taste of Home, we take pride in offering authentic, home-style Indian cuisine with a modern twist. Whether it's a special occasion or a casual meal, our ambiance, food, and service will make you feel right at home.</p>
+            <h3 class="cta-heading">RESERVE A TABLE NOW</h3>
+            <a href="reservation.html" class="cta-button">Reserve Now</a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="form-and-image">
+            <div class="contact-image">
+                <img src="contact.png" alt="Contact Image">
+            </div>
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form id="contact-form">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message & Review Us:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="response-message"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Taste of Home</p>
+    </footer>
+    <script src="js/contact.js"></script>
+</body>
+</html>

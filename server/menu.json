@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with creamy sauce, pancetta, and cheese.",
+    "price": "249.99/-"
+  },
+  {
+    "name": "Margherita Pizza",
+    "description": "Simple pizza with tomato, mozzarella, and fresh basil.",
+    "price": "299.59/-"
+  },
+  {
+    "name": "Butter Chichken",
+    "description": "Inulge in the taste of chicken, with the flavor of butter.",
+    "price": "299.59/-"
+  }
+
+]

@@ -1,0 +1,277 @@
+/* Styles for the Home page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#333333, #6c6c6c 45%,  #616060, #969393, #3a3a37);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 55);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar .logo img {
+    height: 50px;
+    /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.navbar .logo span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0 0 2px #333333;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('taste.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* Viewport height */
+    color: white;
+    background-attachment: fixed;
+    /* Prevent background from scrolling */
+    overflow: hidden;
+    /* Prevent horizontal scrollbar */
+
+}
+
+.hero-content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #cdcdcd;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    border-radius: 0;
+
+    padding: 20px;
+}
+
+.hero .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ebbc89;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .cta:hover {
+    background-color: #fc7804a6;
+}
+
+/* Styles for the Intro section */
+.intro {
+    background-color: transparent;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    height: 100vh;
+    /* Viewport height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text h2 {
+    margin-bottom: 20px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+    background: transparent;
+    height: 100vh;
+    /* Viewport height */
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Styles for the Special Offers section */
+.special-offers {
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    height: 100vh; /* Viewport height */
+  }
+  
+  .offers-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust as needed */
+  }
+  
+  .offer-card {
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 calc(25% - 20px); /* Responsive card width */
+    box-sizing: border-box;
+  }
+  
+  .offer-card h3 {
+    margin-top: 0;
+  }
+  
+  .special-offers .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .special-offers .cta:hover {
+    background-color: #ff4500;
+  }
+      
+.reviews {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    height: 100vh;
+    /* Viewport height */
+}
+
+.reviews h2 {
+    margin-bottom: 20px;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-card {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-card p {
+    margin: 0;
+    font-style: italic;
+}
+
+.review-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer p {
+    margin: 0;
+}

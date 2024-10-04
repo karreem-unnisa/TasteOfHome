@@ -1,0 +1,133 @@
+/* Styles for the Reviews page */
+.reviews-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .review-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .review-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .review-item p {
+    color: #777;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0c095;
+    margin: 0;
+    padding: 0;
+}
+
+  .navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 55);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar .logo img {
+    height: 50px;
+    /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.navbar .logo span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0 0 2px #333333;
+}
+
+form {
+  margin-bottom: 20px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#reviewsList {
+  margin-top: 20px;
+}
+
+.review-item {
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.review-item strong {
+  color: #007bff;
+}
